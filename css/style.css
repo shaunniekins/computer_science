@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background: #cdcdcd;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, 
+h2 {
+  margin-bottom: 15px;
+
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  background: #2f4f4f;
+  color: white;
+  height: 5rem;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header {
+  background: url(/computer_science/img/background_img.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 60%;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background-color: #4c5762;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px black;
+  padding: 15px 20px;
+}
+
+.footer {
+  background: #2f4f4f;
+  color: white;
+  height: 50px;
+}
+
+.footer h2 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+}

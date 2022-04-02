@@ -67,7 +67,7 @@ h2 {
 }
 
 .header{
-  background: url(/img/background_img.jpg);
+  background: url(./img/background_img.jpg);
   background-size: cover;
   background-position: center;
   color: white;
